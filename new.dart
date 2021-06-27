@@ -9,3 +9,7 @@ import 'dart:convert';
 
 // print(x)
 
+void main() {
+  List  x = json.decode('["flutter",true]');
+  print(x);
+}
