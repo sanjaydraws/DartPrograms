@@ -12,6 +12,7 @@ class Cat{
 
 void main(){
 
+
    Cat c1 = new Cat();
    print(c1._isHungry); // true 
    print(c1.isCuddly);// false 
