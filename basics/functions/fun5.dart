@@ -1,4 +1,5 @@
-// . A getter has no parameters and returns a value, and the setter has one parameter and does not return a value.
+// . A getter has no parameters and returns a value,
+// and the setter has one parameter and does not return a value.
 class Cat{
   bool _isHungry = true ;
   bool get isCuddly => !_isHungry;
